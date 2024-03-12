@@ -7,37 +7,60 @@ const fs = require('fs');
 
 let response = {
     "storename": "Pet Paradise",
-    "description": "We provide the best care for your pets while you're away. Our team is dedicated to ensuring your pets are happy and healthy.",
+    "description": "Hi! I'm Sarah. Being a pet owner myself I know the importance of leaving your furry friends in good hands. Being a pet owner myself I know the importance of leaving your furry firneds in good hands. Being a pet owner myself I know the importance of leaving your furry firneds in good hands. Being a pet owner myself I know the importance of leaving your furry firneds in good hands. Being a pet owner myself I know the importance of leaving your furry firneds in good hands.",
     "products": [
         {
-            "name": "Dog Food",
-            "price": 15
+            "name": "Dog Walk",
+            "price": 90
         },
         {
-            "name": "Cat Food",
-            "price": 10
+            "name": "Drop in Visits",
+            "price": 100
+        },
+        {
+            "name": "Overnight House Stay",
+            "price": 80
+        },
+        {
+            "name": "House + Pet sitting",
+            "price": 100
+        },
+        {
+            "name": "Pet Boarding",
+            "price": 50
         }
+
     ],
     "Reviews": [
         {
             "id": 1,
-            "username": "petlover123",
-            "comment": "Great service! My dog loves it here.",
+            "username": "Emily Ribet",
+            "comment": "Hi! I'm Sarah. Being a pet owner myself I know the importance of leaving your furry friends in good hands. Being a pet owner myself I know the importance of leaving your furry firneds in good hands.",
             "rating": 5
         },
         {
             "id": 2,
-            "username": "catlover456",
-            "comment": "My cat is always happy after visiting Pet Paradise.",
+            "username": "Michael Williams",
+            "comment": "Hi! I'm Sarah. Being a pet owner myself I know the importance of leaving your furry friends in good hands. Being a pet owner myself I know the importance of leaving your furry firneds in good hands.",
             "rating": 4
-        }
+        },
+        {
+            "id": 3,
+            "username": "Greg Miller",
+            "comment": "Hi! I'm Sarah. Being a pet owner myself I know the importance of leaving your furry friends in good hands. Being a pet owner myself I know the importance of leaving your furry firneds in good hands.",
+            "rating": 5
+        },
     ],
     "images": [
-        "https://example.com/image1.jpg",
-        "https://example.com/image2.jpg"
+        "images/image1.png",
+        "images/image2.png",
+        "images/image3.png",
+        "images/image2.png",
+        "images/image3.png",
+        "images/image2-1.png",
     ],
     "profile": {
-        "profile_image": "https://example.com/profile.jpg",
+        "profile_image": "images/profile.png",
         "profile_slug": "petparadise",
 
     },
